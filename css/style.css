@@ -4,3 +4,125 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+header {
+    /* Debug */
+    background-color: aquamarine;
+    height: 50px;
+    padding: 15px 90px;
+}
+
+/* Nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: goldenrod;
+    border: 2px black dashed;
+
+}
+
+.link  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    /* Debug */
+    width: 500px;
+    border: 1px black dashed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+/* MAIN */
+/* First section */
+.first-section {
+    /* Debug */
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    /* Debug */
+    background-color: azure;
+    height: 150px;
+    width: 350px;
+    border: 2px black dashed;
+}
+
+/* Second section */
+.content {
+    /* Debug */
+    background-color: lightseagreen;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    display: flex;
+    /* Debug */
+    height: 200px;
+    width: 500px;
+}
+
+.left {
+    /* debug */
+    width: 65%;
+    height: 200px;
+    background-color: blue;
+    border: 2px black dashed;
+}
+
+.right {
+    /* Debug */
+    width: 35%;
+    height: 200px;
+    background-color: gray;
+    border: 2px black dashed;
+}
+
+/* Third section */
+
+.second {
+    /* debug */
+    background-color: lightcoral;
+}
+
+.reverse {
+    /* debug */
+    flex-direction: row-reverse;
+}
+
+/* Last section */
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: aquamarine;
+    height: 350px;
+}
+
+.square {
+    /* debug */
+    background-color: brown;
+    height: 300px;
+    width: 500px;
+}
+
+
+
+
