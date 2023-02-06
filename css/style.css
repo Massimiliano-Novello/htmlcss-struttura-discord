@@ -29,17 +29,18 @@ nav {
     display: flex;
     justify-content: space-around;
     /* Debug */
-    width: 500px;
+    width: 400px;
     border: 1px black dashed;
+}
+
+.logo {
+    margin-left: 100px;
 }
 
 a {
     text-decoration: none;
 }
 
-.logo {
-    text-align: center;
-}
 
 /* MAIN */
 /* First section */
@@ -123,6 +124,65 @@ a {
     width: 500px;
 }
 
+/* FOOTER */
 
+.section-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    /* debug */
+    background-color: black;
+    height: 350px;
+}
+
+.informations {
+    display: flex;
+    /* debug */
+    background-color: pink;
+    height: 300px;
+    width: 400px;
+    border: 2px red dashed;
+}
+
+.informations div {
+    /* debug */
+    width: 40%;
+    border: 1px red dashed;
+}
+
+.informations ul {
+    /* debug */
+    width: 60%;
+    border: 1px red dashed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* Final section*/
+
+.final-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* dubag */
+    background-color: black;
+    margin-top: 5px;
+    height: 70px;
+    padding: 10px 60px;
+}
+
+.bottoni {
+    display: flex;
+    justify-content: space-between;
+    /* dubag */
+    background-color: white;
+    height: 30px;
+    width: 60%;
+}
 
 
